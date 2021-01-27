@@ -1,0 +1,23 @@
+{
+  "name": "project-cms-framework-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidMTdev/Project-CMS-Framework-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidMTdev/Project-CMS-Framework-CSS/issues"
+  },
+  "homepage": "https://github.com/DavidMTdev/Project-CMS-Framework-CSS#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
