@@ -1,0 +1,122 @@
+//Taille Image
+
+@mixin tImage_1 {
+	height: 80px;
+	width: 80px;
+}
+@mixin tImage_2 {
+	height: 200px;
+	width: 200px;
+}
+@mixin tImage_3 {
+	height: 350px;
+	width: 350px;
+}
+// Taille de l'image qui est dans un grid
+@mixin tImage_G {
+	height: 90%;
+	width: 90%;
+}
+
+// FLEX
+
+	// Centre
+@mixin displayFlex_C {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+	}
+	// Droite
+@mixin displayFlex_R {
+	display: flex;
+	align-items: center;
+	text-align: end;
+}
+	// Gauche
+@mixin displayFlex_L {
+	display: flex;
+	align-items: center;
+	text-align: start;
+}
+@mixin displayFlex_CC {
+	display: flex;
+	align-items: center;
+	text-align: start;
+	flex-direction: column;
+}
+	
+
+// GRID
+
+@mixin grid($repeat) {
+	display: grid;
+	grid-template-columns: repeat($repeat, auto);
+}
+@mixin grid_G1($repeat) {
+	display: grid;
+	grid-template-columns: repeat($repeat, auto);
+	column-gap: 20px;
+}
+@mixin grid_G2($repeat) {
+	display: grid;
+	grid-template-columns: repeat($repeat, auto);
+	column-gap: 40px;
+}
+
+
+		//Position absolute
+@mixin positionAbsolute($top,$left,$tx,$ty){
+    position: absolute;
+	top: $top;
+	left: $left;
+	transform: translate($tx, $ty);
+	text-align: center;
+}
+
+@mixin positionFixed($top, $left, $width, $height, $z-index){
+    position: fixed;
+	top: $top;
+	left: $left;
+	width: $width;
+	height: $height;
+	z-index: $z-index;
+	transition: 0.3s;
+}
+
+
+		//CONTAINER
+@mixin C($color) {
+	width: 95%;
+	height: auto;
+	background-color: $color;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	margin: 5% 0;
+}
+@mixin C_2($color) {
+	width: 80%;
+	height: auto;
+	background-color: $color;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	margin: 5% 0;
+
+}
+@mixin C_3($color) {
+	width: 50%;
+	height: auto;
+	background-color: $color;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	margin: 5% 0;
+
+}
