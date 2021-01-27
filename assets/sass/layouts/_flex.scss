@@ -1,0 +1,15 @@
+.flex-c{
+    @include displayFlex_C;
+}
+
+.flex-cc{
+    @include displayFlex_CC;
+}
+
+.flex-l{
+    @include displayFlex_L;
+}
+
+.flex-r{
+    @include displayFlex_R;
+}
