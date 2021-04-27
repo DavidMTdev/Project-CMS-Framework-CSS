@@ -1,7 +1,14 @@
 .text-lg{
+    font-family: $roboto;
     font-size: $sizeLG;
 }
 
 .text-s{
-    size: 50px;
+    font-family: $roboto;
+    font-size: $sizeS;
+}
+
+.text-m{
+    font-family: $roboto;
+    font-size: $sizeS;
 }
